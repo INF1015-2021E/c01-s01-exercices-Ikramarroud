@@ -70,8 +70,8 @@ int main(int argc, char* argv[]) {
 	printf("SUB TOTAL %10.2f $" "\n", subTotal);
 	printf("TAXES     %10.2f $" "\n", taxes);
 	printf("TOTAL     %10.2f $" "\n", total);
-	cout << clientName << "\n";
-	     << "SUB TOTAL " << setw(10) << fixed << setprecision(2) << subTotal << " $" << "\n";
+	cout << clientName << "\n"
+	     << "SUB TOTAL " << setw(10) << fixed << setprecision(2) << subTotal << " $" << "\n"
 	     << "TAXES     " << taxes << "\n"
 	     << "TOTAL     " << total << "\n";
 }
